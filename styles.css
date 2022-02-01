@@ -1,0 +1,39 @@
+.bento-box{
+    width: fit-content;
+    height: fit-content;
+    display: grid;
+}
+.bento-box img {
+    height: 100%;
+    width: 100%;
+}
+
+.fish-flag{
+    grid-column: 1 / span 2;
+    grid-row: 1;
+}
+
+.map{
+    grid-column: 1 / span 2;
+    grid-row: 2;
+}
+
+.vase-tall{
+    grid-column: 1;
+    grid-row: 3 / span 3;
+}
+
+.vase-short{
+    grid-column: 3;
+    grid-row: 1 / span 2;
+}
+
+.bamboo{
+    grid-column: 2 / span 2;
+    grid-row: 3 / span 2;
+}
+
+.quadropus{
+    grid-column: 2 / span 2;
+    grid-row: 5;
+}
